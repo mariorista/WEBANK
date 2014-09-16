@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:33330/WEBANK/AlfaService?wsdl" uri="src/conf/xml-resources/web-service-references/AlfaService/wsdl/localhost_33330/WEBANK/AlfaService.wsdl"/>
+    <system systemId="http://localhost:33330/WEBANK/AlfaService?xsd=1" uri="src/conf/xml-resources/web-service-references/AlfaService/wsdl/localhost_33330/WEBANK/AlfaService.xsd_1.xsd"/>
+    <system systemId="http://localhost:33330/WEBANK/betaService?wsdl" uri="src/conf/xml-resources/web-service-references/betaService/wsdl/localhost_33330/WEBANK/betaService.wsdl"/>
+    <system systemId="http://localhost:33330/WEBANK/betaService?xsd=1" uri="src/conf/xml-resources/web-service-references/betaService/wsdl/localhost_33330/WEBANK/betaService.xsd_1.xsd"/>
+</catalog>
+
+

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2-hudson-752-. --><xs:schema xmlns:tns="http://Alfa/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://Alfa/">
+
+<xs:element name="ConnectionNQ" type="tns:ConnectionNQ" />
+
+<xs:element name="ConnectionNQResponse" type="tns:ConnectionNQResponse" />
+
+<xs:element name="Info" type="tns:Info" />
+
+<xs:element name="InfoResponse" type="tns:InfoResponse" />
+
+<xs:element name="mailCheck" type="tns:mailCheck" />
+
+<xs:element name="mailCheckResponse" type="tns:mailCheckResponse" />
+
+<xs:complexType name="mailCheck">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="mailCheckResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Info">
+<xs:sequence>
+<xs:element name="password" type="xs:string" minOccurs="0" />
+<xs:element name="username" type="xs:string" minOccurs="0" />
+<xs:element name="account" type="xs:string" minOccurs="0" />
+<xs:element name="mail" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="InfoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ConnectionNQ">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0" />
+<xs:element name="arg1" type="xs:string" minOccurs="0" />
+<xs:element name="arg2" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ConnectionNQResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
