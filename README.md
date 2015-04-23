@@ -6,4 +6,4 @@ netbeans project
 
 corelated with the HUABANK project. https://github.com/mariorista/HUABANK.git
 a web based platform implemented by using web services.
-java jsp soa.
+java jsp SOAP.
